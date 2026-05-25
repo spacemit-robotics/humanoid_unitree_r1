@@ -51,8 +51,8 @@ simulation:
 
   mujoco:
     # 初始化参数
-    init_height: 0.85       # 初始高度（机器人从此高度落下）
-    assist_height: 1.0     # 悬挂保护目标高度（R1 自然站立 pelvis ~0.76m，略低以避免向下拉力）
+    init_height: 0.78       # 初始高度（机器人从此高度落下）
+    assist_height: 0.76     # 悬挂保护目标高度（R1 自然站立）
 
     # 仿真时间参数
     sim_dt: 0.002           # 仿真时间步长（秒）
